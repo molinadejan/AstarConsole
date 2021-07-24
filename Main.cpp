@@ -30,7 +30,7 @@ int main(void)
 
 	MapManager mm(worldMap);
 
-	vector<pair<int, int>> path = mm.AStar(worldMap, 9, 0, 9, 9);
+	vector<pair<int, int>> path = mm.AStar(worldMap, 0, 0, 9, 9);
 
 	vector<vector<char>> printMap = worldMap;
 
